@@ -1,7 +1,7 @@
-##Inventory Management System:
+Inventory Management System:
 A simple and efficient Inventory Management System built to manage products, stock, sales, and purchases with role-based access. This project helps businesses track inventory in real time, reduce manual errors, and manage operations smoothly.
 
-##Features:
+Features:
   * Role-based Login (Admin / Customer)
   * Dashboard with inventory stats
   * Product & Stock Management
@@ -12,15 +12,15 @@ A simple and efficient Inventory Management System built to manage products, sto
   * REST API based backend
   * Responsive UI
 
-## Tech Stack:
- #Frontend:
+Tech Stack:
+ Frontend:
     *React.js
     *Axios
     *Tailwind / CSS
- #Backend:
+ Backend:
     *Node.js
     *Express.js
- #Database:
+ Database:
     *MongoDB (MongoDB Compass)
  #Other Tools:
     *Git & GitHub
