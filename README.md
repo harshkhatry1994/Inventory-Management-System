@@ -208,7 +208,9 @@ npm run dev
 
 Create a `.env` file in **Backend**
 
-```bash
+### Backend `.env`
+
+```env
 MONGODB_URI=your_mongodb_connection_string
 PORT=3000
 SECRET_KEY=your_secret_key
@@ -216,15 +218,13 @@ NODE_ENV=development
 ORIGIN=http://localhost:3000
 ```
 
-Create `.env` in **Frontend**
+### Frontend `.env`
 
-```
-VITE_SERVER=https://inventory-management-backend.onrender.com
+```env
+VITE_SERVER=https://inventory-management-backend-hsaf.onrender.com
 VITE_MODE=PROD
 VITE_LOCAL=http://localhost:3000
 ```
-
----
 
 # API Endpoints
 
