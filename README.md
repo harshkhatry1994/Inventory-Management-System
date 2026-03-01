@@ -27,25 +27,4 @@ A simple and efficient Inventory Management System built to manage products, sto
     *VS Code
     *Postman
 
-## Structure:
-Inventory-Management-System/
-│
-├── inventory-backend/
-│   ├── config/              # Database connection (db.js)
-│   ├── middleware/          # Authentication middleware
-│   ├── models/              # Mongoose models (User, Product, Purchase)
-│   ├── routes/              # API routes (authRoutes, productRoutes, purchaseRoutes)
-│   ├── server.js            # Backend entry point
-│   ├── package.json
-│   └── .env                 # Environment variables (not pushed to GitHub)
-│
-└── inventory-frontend/
-    ├── public/
-    ├── src/
-    │   ├── components/      # Navbar, ProtectedRoute
-    │   ├── context/         # AuthContext
-    │   ├── pages/           # Products, Sales, Purchase, Register, etc.
-    │   ├── api.js           # API configuration & requests
-    │   ├── App.js
-    │   └── index.js
-    └── package.json
+
