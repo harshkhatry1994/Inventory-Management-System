@@ -1,31 +1,31 @@
 ## Inventory Management System:
 A simple and efficient Inventory Management System built to manage products, stock, sales, and purchases with role-based access. This project helps businesses track inventory in real time, reduce manual errors, and manage operations smoothly.
 
-## Features:
-  * Role-based Login (Admin / Customer)
-  * Dashboard with inventory stats
-  * Product & Stock Management
-  * Purchase Management
-  * Sales Management
-  * Customer View (view products & book / buy)
-  * MongoDB Database Integration
-  * REST API based backend
-  * Responsive UI
+### Features:
+  # Role-based Login (Admin / Customer)
+  # Dashboard with inventory stats
+  # Product & Stock Management
+  # Purchase Management
+  # Sales Management
+  # Customer View (view products & book / buy)
+  # MongoDB Database Integration
+  # REST API based backend
+  # Responsive UI
 
 ## Tech Stack:
- # Frontend:
-    *React.js
-    *Axios
-    *Tailwind / CSS
+ ## Frontend:
+   # React.js
+   # Axios
+   # Tailwind / CSS
   # Backend:
-    *Node.js
-    *Express.js
+   # Node.js
+   # Express.js
  ## Database:
-   - MongoDB (MongoDB Compass)
+   # MongoDB (MongoDB Compass)
  ## Other Tools:
-    - Git & GitHub
-    - VS Code
-    - Postman
+   # Git & GitHub
+   # VS Code
+   # Postman
 ## Table of Contents
 - [Features](#features)
 - [Folder Structure](#folder-structure)
@@ -160,40 +160,37 @@ C:.
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 ## 2.Backend Setup:
-cd Backend
-npm install
+# cd Backend
+# npm install
 
 ## 3. Frontend Setup
-cd Frontend
-npm install
+# cd Frontend
+# npm install
 
 ## Running the Application
-# 1.Run Backend
-cd Backend
-npm start
-# 2.Run Frontend
-cd Frontend
-npm start
+## 1.Run Backend
+# cd Backend
+# npm start
+## 2.Run Frontend
+# cd Frontend
+# npm start
 
 ## Environment Variables
-Create a .env file in the Backend and Frontend directories and configure the following:
-# Backend .env:
-MONGODB_URI=your_mongodb_connection_string
-PORT=3000
-SECRET_KEY=your_secret_key
-NODE_ENV=development
-ORIGIN=http://localhost:3000
+# Create a .env file in the Backend and Frontend directories and configure the following:
+##  Backend .env:
+# MONGODB_URI=your_mongodb_connection_string
+# PORT=3000
+# SECRET_KEY=your_secret_key
+# NODE_ENV=development
+# ORIGIN=http://localhost:3000
 
 # Frontend .env:
-VITE_SERVER=https://inventory-management-backend-hsaf.onrender.com
-VITE_MODE=PROD
-VITE_LOCAL=http://localhost:3000
+# VITE_SERVER=https://inventory-management-backend-hsaf.onrender.com
+# VITE_MODE=PROD
+# VITE_LOCAL=http://localhost:3000
 
 ##  API endpoints
-## API Endpoints
-
 ### User Routes
-
 - **POST** `/api/v1/users/signup` - Sign up a new user  
 - **POST** `/api/v1/users/login` - Log in a user  
 - **GET** `/api/v1/users/logout` - Log out a user  
