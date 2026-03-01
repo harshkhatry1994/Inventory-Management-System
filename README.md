@@ -29,8 +29,6 @@ An Inventory Management System built with **Vite, React.js for the frontend**, a
 
 ---
 
-# Folder Structure
-
 ## Folder Structure
 
 ```
@@ -167,7 +165,7 @@ Frontend
 
 ### 1 Clone the repository
 
-```
+```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 ```
@@ -210,7 +208,7 @@ npm run dev
 
 Create a `.env` file in **Backend**
 
-```
+```bash
 MONGODB_URI=your_mongodb_connection_string
 PORT=3000
 SECRET_KEY=your_secret_key
